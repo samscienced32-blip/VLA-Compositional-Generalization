@@ -1,0 +1,92 @@
+[
+  {
+    "task_idx": 0,
+    "original": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "variants": [
+      "grab the black bowl between the plate and the ramekin and put it on the plate",
+      "take the black bowl that is between the plate and the ramekin and set it on the plate",
+      "put the black bowl from between the plate and ramekin onto the plate"
+    ]
+  },
+  {
+    "task_idx": 1,
+    "original": "pick up the black bowl next to the ramekin and place it on the plate",
+    "variants": [
+      "grab the black bowl next to the ramekin and put it on the plate",
+      "take the black bowl beside the ramekin and set it on the plate",
+      "move the black bowl by the ramekin to the plate"
+    ]
+  },
+  {
+    "task_idx": 2,
+    "original": "pick up the black bowl from table center and place it on the plate",
+    "variants": [
+      "grab the black bowl from table center and put it on the plate",
+      "take the black bowl at the center of the table and set it on the plate",
+      "move the black bowl from the middle of the table onto the plate"
+    ]
+  },
+  {
+    "task_idx": 3,
+    "original": "pick up the black bowl on the cookie box and place it on the plate",
+    "variants": [
+      "grab the black bowl on the cookie box and put it on the plate",
+      "take the black bowl that is sitting on the cookie box and set it on the plate",
+      "move the black bowl from the cookie box to the plate"
+    ]
+  },
+  {
+    "task_idx": 4,
+    "original": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+    "variants": [
+      "grab the black bowl in the top drawer of the wooden cabinet and put it on the plate",
+      "take the black bowl from the wooden cabinet's top drawer and set it on the plate",
+      "get the black bowl from the cabinet drawer and put it on the plate"
+    ]
+  },
+  {
+    "task_idx": 5,
+    "original": "pick up the black bowl on the ramekin and place it on the plate",
+    "variants": [
+      "grab the black bowl on the ramekin and put it on the plate",
+      "take the black bowl sitting on the ramekin and set it on the plate",
+      "move the black bowl off the ramekin onto the plate"
+    ]
+  },
+  {
+    "task_idx": 6,
+    "original": "pick up the black bowl next to the cookie box and place it on the plate",
+    "variants": [
+      "grab the black bowl next to the cookie box and put it on the plate",
+      "take the black bowl beside the cookie box and set it on the plate",
+      "move the black bowl by the cookie box to the plate"
+    ]
+  },
+  {
+    "task_idx": 7,
+    "original": "pick up the black bowl on the stove and place it on the plate",
+    "variants": [
+      "grab the black bowl on the stove and put it on the plate",
+      "take the black bowl sitting on the stove and set it on the plate",
+      "move the black bowl from the stove to the plate"
+    ]
+  },
+  {
+    "task_idx": 8,
+    "original": "pick up the black bowl next to the plate and place it on the plate",
+    "variants": [
+      "grab the black bowl next to the plate and put it on the plate",
+      "take the black bowl beside the plate and set it on the plate",
+      "move the black bowl from beside the plate onto it"
+    ]
+  },
+  {
+    "task_idx": 9,
+    "original": "pick up the black bowl on the wooden cabinet and place it on the plate",
+    "variants": [
+      "grab the black bowl on the wooden cabinet and put it on the plate",
+      "take the black bowl sitting on the wooden cabinet and set it on the plate",
+      "move the black bowl from the cabinet to the plate"
+    ]
+  }
+]

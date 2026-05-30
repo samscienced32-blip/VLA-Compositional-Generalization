@@ -15,6 +15,7 @@ We independently stress the **linguistic** axis (paraphrase variants) and **visu
 ```
 ├── run_experiment_openvla.py   # Main experiment runner (all 4 cells)
 ├── analyze_results.py          # Generates figures and CGG metrics from results
+├── statistical_analysis.py     # Wilcoxon tests, CGG decomposition, power analysis
 ├── paraphrases.json            # 30 human-authored paraphrase variants (10 tasks × 3 types)
 └── README.md
 ```
@@ -24,7 +25,7 @@ We independently stress the **linguistic** axis (paraphrase variants) and **visu
 ### Requirements
 
 - Python 3.10+
-- CUDA capable GPU (12 GB VRAM minimum for 8-bit quantization; 16 GB+ for bfloat16)
+- CUDA-capable GPU (12 GB VRAM minimum recommended)
 - Ubuntu 22.04, CUDA 12.1
 
 ### Install
@@ -39,11 +40,10 @@ git clone https://github.com/openvla/openvla-oft.git ~/openvla-oft
 cd ~/openvla-oft && pip install -e .
 
 # 3. Install remaining deps
-pip install transformers accelerate bitsandbytes Pillow opencv-python imageio
-
-# 4. Download model checkpoint (~14 GB)
-python download_openvla.py
+pip install transformers accelerate bitsandbytes Pillow opencv-python imageio scipy
 ```
+
+> The model checkpoint (~14 GB) is downloaded automatically from HuggingFace on first run.
 
 ## Running the Experiment
 
@@ -67,6 +67,14 @@ python analyze_results.py
 ```
 
 Outputs figures to `~/VLMmodel/figures/` and prints CGG decomposition.
+
+## Statistical Analysis
+
+```bash
+python statistical_analysis.py
+```
+
+Reproduces all Wilcoxon signed-rank tests, CGG decomposition, PCS scores, and power analysis reported in the paper. Saves a `per_task_results.csv` with per-task breakdowns.
 
 ## Paraphrase Annotations
 

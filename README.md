@@ -17,9 +17,9 @@ We independently stress the **linguistic** axis (paraphrase variants) and **visu
 ├── analyze_results.py          # Generates figures and CGG metrics from results
 ├── download_openvla.py         # Downloads OpenVLA checkpoint from HuggingFace
 ├── paraphrases.json            # 30 human-authored paraphrase variants (10 tasks × 3 types)
-├── paper/
-│   ├── paper.tex               # LaTeX source
-│   └── references.bib          # Bibliography
+├── paper.tex                   # LaTeX source
+├── references.bib              # Bibliography
+├── caisc_2026.sty              # CAISc 2026 style file
 └── README.md
 ```
 
@@ -28,7 +28,7 @@ We independently stress the **linguistic** axis (paraphrase variants) and **visu
 ### Requirements
 
 - Python 3.10+
-- CUDA-capable GPU (12 GB VRAM minimum for 8-bit; 16 GB for bfloat16)
+- NVIDIA RTX 4080 Mobile GPU or equivalent (12 GB VRAM minimum for 8-bit quantization; 16 GB+ for bfloat16)
 - Ubuntu 22.04, CUDA 12.1
 
 ### Install

@@ -15,11 +15,7 @@ We independently stress the **linguistic** axis (paraphrase variants) and **visu
 ```
 ├── run_experiment_openvla.py   # Main experiment runner (all 4 cells)
 ├── analyze_results.py          # Generates figures and CGG metrics from results
-├── download_openvla.py         # Downloads OpenVLA checkpoint from HuggingFace
 ├── paraphrases.json            # 30 human-authored paraphrase variants (10 tasks × 3 types)
-├── paper.tex                   # LaTeX source
-├── references.bib              # Bibliography
-├── caisc_2026.sty              # CAISc 2026 style file
 └── README.md
 ```
 

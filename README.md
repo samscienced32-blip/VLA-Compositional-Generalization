@@ -24,7 +24,7 @@ We independently stress the **linguistic** axis (paraphrase variants) and **visu
 ### Requirements
 
 - Python 3.10+
-- NVIDIA RTX 4080 Mobile GPU or equivalent (12 GB VRAM minimum for 8-bit quantization; 16 GB+ for bfloat16)
+- CUDA capable GPU (12 GB VRAM minimum for 8-bit quantization; 16 GB+ for bfloat16)
 - Ubuntu 22.04, CUDA 12.1
 
 ### Install

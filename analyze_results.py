@@ -2,7 +2,6 @@
 VLA COMPOSITIONALITY — ANALYSIS SCRIPT
 =======================================
 Project: Disentangling Linguistic vs. Visual Compositionality Failures in VLAs
-Team: HandofGod | Sagar Kumar | BITS Pilani | CAISc 2026
 
 Run AFTER run_experiment.py completes:
   python analyze_results.py

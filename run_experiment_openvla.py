@@ -3,7 +3,6 @@ VLA COMPOSITIONALITY EXPERIMENT — Standard OpenVLA
 ====================================================
 Fallback version using openvla/openvla-7b-finetuned-libero-spatial.
 Single camera, single-action-per-step, no action head / proprio needed.
-Documented ~76-80% SR on LIBERO-Spatial.
 
 Usage:
   MUJOCO_GL=egl python run_experiment_openvla.py

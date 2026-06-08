@@ -1,7 +1,5 @@
 # Disentangling Linguistic and Visual Compositionality Failures in Vision-Language-Action Models
 
-**CAISc 2026 Submission** — [anonymous repository](https://anonymous.4open.science/r/VLA-Compositional-Generalization)
-
 ---
 
 ## Overview

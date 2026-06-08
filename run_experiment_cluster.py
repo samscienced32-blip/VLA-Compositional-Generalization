@@ -1,7 +1,6 @@
 """
-VLA COMPOSITIONALITY EXPERIMENT — CSIS Cluster (A100 80GB) version
+VLA COMPOSITIONALITY EXPERIMENT — Cluster (A100 80GB) version
 ====================================================================
-Adapted from run_experiment_openvla.py for the BITS CSIS cluster.
 
 Key differences from laptop version:
   - No 8-bit quantisation (full bfloat16 — A100 has 80GB VRAM)

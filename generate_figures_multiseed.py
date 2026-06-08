@@ -4,12 +4,6 @@ generate_figures_multiseed.py
 Regenerates all paper figures using pooled multi-seed results.
 Averages per-task SRs across specified seeds before plotting.
 
-Usage:
-    cd ~/VLMmodel
-    python "Research paper/generate_figures_multiseed.py" --seeds 0 1
-    python "Research paper/generate_figures_multiseed.py" --seeds 0 1 2 3 4
-
-Outputs to: ~/VLMmodel/Research paper/figures/
 """
 
 import json, os, argparse, numpy as np

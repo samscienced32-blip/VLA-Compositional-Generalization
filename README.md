@@ -88,7 +88,7 @@ MUJOCO_GL=egl python run_experiment_openvla.py --cells 1
 MUJOCO_GL=egl python run_experiment_openvla.py --visualize --num_tasks 1 --rollouts 2
 ```
 
-Results are saved locally to `~/VLMmodel/results/` as JSON files (not committed — fully reproducible by re-running the scripts). C1/C3 run 10 rollouts per task; C2/C4 run 30 rollouts (3 variants × 10) and report the mean SR across variants as the task-level SR. Initial states are cycled if fewer than 10 are available. MuJoCo runs at 20 Hz, 256×256 px, max 300 steps per rollout; `normalize_gripper_action` + `invert_gripper_action` are applied at inference to reconcile training convention. Visual perturbation adds Gaussian noise ε~N(0, 0.05²I₇) (σ=0.05 rad per joint) to all 7 arm joints at initialisation via `sim.data.qpos[:7]`.
+Results: C1/C3 run 10 rollouts per task; C2/C4 run 30 rollouts (3 variants × 10) and report the mean SR across variants as the task-level SR. Initial states are cycled if fewer than 10 are available. MuJoCo runs at 20 Hz, 256×256 px, max 300 steps per rollout; `normalize_gripper_action` + `invert_gripper_action` are applied at inference to reconcile training convention. Visual perturbation adds Gaussian noise ε~N(0, 0.05²I₇) (σ=0.05 rad per joint) to all 7 arm joints at initialisation via `sim.data.qpos[:7]`.
 
 ### bfloat16 (A100 cluster — how the replication results were produced)
 
